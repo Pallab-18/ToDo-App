@@ -51,6 +51,7 @@ const Todo = () => {
     }
 
     return (
+        <div>
         <div className='todo-container'>
             <h2>ToDo List</h2>
             <input type='text' value={inputValue} onChange={(e) =>
@@ -89,6 +90,19 @@ const Todo = () => {
 
             </ol>
 
+
+        </div>
+
+        
+    <footer>
+        <p>Created by <span>Pallab Chatterjee</span></p>
+        <p class="rights">Learning Based Project</p>
+        <ul>
+            <li><a href="https://www.instagram.com/pallab_chatterjee18/">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/pallab-chatterjee-166b62206/">LinkedIn</a></li>
+            <li><a href="https://github.com/Pallab-18">GitHub</a></li>
+        </ul>
+    </footer>
 
         </div>
     )
